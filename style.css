@@ -23,6 +23,11 @@ body{
     text-align: center;
     box-shadow: 0 8px 16px rgba(0,0,0,3);
 }
+#timer span{
+  font-size: 30px;
+  color: yellow;
+}
+
 #question{
     margin-bottom: 20px;   
 }
@@ -40,4 +45,20 @@ body{
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
+    margin-bottom: 10px;
 }
+
+.option-btn {
+    padding: 12px;
+    background: #38385e;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.option-btn:hover {
+    background: #4b4b7e;
+}
+
